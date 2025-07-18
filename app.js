@@ -18,9 +18,7 @@ function renderExtensions(data){
 
     data.forEach((ext, index) => {
         const checked = ext.isActive ? 'checked' : '';
-        const statusText = ext.isActive ? 'Active' : 'Inactive';
-        const statusColor = ext.isActive ? 'green' : 'red';
-
+        
         const card = `
             <div class="card">
                 <div class="card__main">
